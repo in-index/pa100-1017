@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>PA 100 Index</title>
+	<!--<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='Images/favicon.png') }}">-->
+	<link rel="stylesheet" href="../static/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+	
+<body>
+	<nav>
+		<a href="https://www1.lehigh.edu/home">
+			<img src="{{ url_for('static', filename = 'Images/lehighbusinesscopypaste.png') }}" alt="Lehigh Business logo">
+		</a>
+		<ul>
+			<li><a href="/" style="font-style: italic;">Index</a></li>
+			<li><a href="reports">Reports</a></li>
+			<li><a href="methodology">Methodology</a></li>
+			<li><a href="team">Team</a></li>
+			<li><a href="https://business.lehigh.edu/academics/graduate/masters-programs/ms-financial-engineering">MS in
+					Financial Engineering</a></li>
+			<li><a href="contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<div class="banner">
+		<img src="{{ url_for('static', filename = 'Images/LehighFinalRendering01.jpg') }}">
+		<h6>Lehigh University</h6>
+		<h1>Pennsylvania 100 Index</h1>
+	</div>
+
+	<div>
+		{{ plot_html3|safe }}
+	</div>
+	<div style="margin-top: 25px;"></div>
+
+	<div class="closetotable">
+		<p>Controls on Top / Right</p>
+		<div class="sidenote">
+			<p style="font-size: 10px;">Source: Lehigh University, PA 100 Index</p>
+		</div>
+	</div>
+
+	<div style="margin-top: 50px;"></div>
+
+
+	<div>
+		<h1>What is the Lehigh University PA 100 Index?</h1>
+		<div style="text-align: center;">
+			<img src="{{ url_for('static', filename='Images/Index Distribution By PA Counties.png') }}" alt="Index Distribution By PA Counties" style="width:100%; max-width:600px;">
+		  </div>		  
+		  <p style="text-align: left;">
+			The Lehigh University PA 100 Index is an equity index that tracks the performance of the top 100 publicly traded companies in
+			the state of Pennsylvania. The index is designed to provide investors and financial professionals with a
+			comprehensive view of the state's economic trends and the overall health of its publicly traded companies.
+		</p>
+		<p style="text-align: left;">
+			The index is calculated using a Free-Float Market-Capitalization Method, taking into account the
+			total value of each company's outstanding shares that are available for trading, multiplied by the current
+			market price per share. This method is widely used in the financial industry and is considered a reliable
+			and accurate way to calculate market indexes and represent the true value of the underlying equities.
+		</p>
+		<p style="text-align: left;">
+			By tracking the performance of the Lehigh University PA 100 Index, investors and financial professionals can gain valuable
+			insights into the state's economic health, sector representation, and the performance of its top companies.
+		</p>		
+	</div>
+
+	<div>
+		<h1>Lehigh University PA 100 Index Sector Weights</h1>
+		{{ plot_html2|safe }}
+	</div>
+
+	<div class="closetotable">
+		<p>Hover Over Categories to Learn More</p>
+		<div class="sidenote">
+			<p style="font-size: 10px;">Source: Lehigh University, PA 100 Index</p>
+		</div>
+	</div>
+
+
+	
+	<div style="height: 75px;"></div>
+
+	<div>
+		<h1>How is the Index calculated?</h1>
+		<p style="margin-top: 50px; margin-bottom: 50px; text-align: left;">
+			The Lehigh University PA 100 Index is calculated using a Free-Float Market-Capitalization Method, similar to other standard
+			equity indices such as the S&P 500. In a Free-Float Market-Capitalization, the market capitalization is
+			based on  the total value of a company's free-floating shares. The value is calculated using the product
+			of the price per share and the number of free-floating shares in each quarter.
+		</p>
+
+		<div class="dot-container">
+			<div class="dot"><span>Accuracy</span></div>
+			<div class="dot"><span>Reliability</span></div>
+			<div class="dot"><span>Locality</span></div>
+		</div>
+		
+		<p style="margin-top: 50px; text-align: left;">
+			To ensure that the Lehigh University PA 100 Index remains accurate and up-to-date, we update the floating share counts of each
+			company in the index regularly, keeping standard industry practices in mind. We also adhere to standard
+			industry practices in our calculation methodology, to ensure that our index is comparable to other widely
+			accepted indices.
+		</p>
+	</div>
+
+	<div style="height: 15px;"></div>
+
+	<div>
+		<h1>Disclaimer</h1>
+		<p class="disclaimer-text">
+			All information provided by the [Lehigh University PA 100] any other index provided by Lehigh University and any 
+			associated materials or content or any part thereof (“Content”) is impersonal and not tailored to the needs of any 
+			person, entity, or group of persons. Past performance of an index is not an indication or guarantee of future results. 
+			Lehigh University does not sponsor, endorse, sell, promote or manage any investment fund or other investment vehicle 
+			that is offered by third parties and that seeks to provide an investment return based on the performance of any index 
+			included in the Content or otherwise. Lehigh University is not an investment advisor, fiduciary, “promoter” (as defined 
+			in the Investment Company Act of 1940, as amended) or “expert” as enumerated within 15 U.S.C. § 77k(a), and makes no 
+			representation regarding the advisability of investing in any such investment fund or other investment vehicle. None of 
+			the Content constitutes a solicitation, offer, opinion, endorsement or recommendation by Lehigh University to buy or sell 
+			any security, or to provide legal, tax, accounting, or investment advice or services regarding the profitability or 
+			suitability of any security or investment. A decision to invest in any investment fund or other investment vehicle should 
+			not be made in reliance on any of the Content, and the Content is not a substitute for the skill, judgment and experience 
+			of the user, its management, employees, advisors and/or clients when making investment and other business decisions. Inclusion 
+			of a security within the Content is not a recommendation by Lehigh University to buy, sell, or hold such security, nor is it 
+			considered to be investment or trading advice. 
+			
+			The Content has been prepared solely for informational purposes and are not intended for trading purposes. 
+			Lehigh University does not assume any obligation to update the Content following publication in any form or 
+			format. The Content is not provided on a real-time basis. Pricing is anticipated to be updated once per day 
+			but may be subject to delay. While Lehigh University has obtained information from sources it believes to be 
+			reliable, Lehigh University does not perform an audit or undertake independent verification of any information 
+			it receives. Lehigh University reserves the right to vary or discontinue any index at any time for any reason. 
+			A license is required from Lehigh University to display, create derivative works of and/or distribute any product 
+			or service that uses, is based upon and/or refers to any Lehigh University and/or index data. The Content shall not 
+			be used for any unlawful or unauthorized purposes. The Content is not intended for use by, or distribution to, any 
+			person or entity in any jurisdiction or country where such use or distribution would be contrary to law or regulation. 
+			
+			Lehigh University does not guarantee the accuracy, completeness, timeliness, or availability of the Content. 
+			THE CONTENT IS PROVIDED ON AN “AS IS”, “WHERE IS”, “AS AVAILABLE” BASIS. LEHIGH UNIVERSITY DISCLAIMS ANY AND ALL 
+			EXPRESS OR IMPLIED WARRANTIES OF ANY KIND RELATING TO THE CONTENT, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES 
+			OF MERCHANTABILITY, NONINFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE OR USE, FREEDOM FROM BUGS, SOFTWARE 
+			ERRORS OR DEFECTS, THAT THE CONTENT’S FUNCTIONING WILL BE UNINTERRUPTED OR THAT THE CONTENT WILL OPERATE WITH 
+			ANY SOFTWARE OR HARDWARE CONFIGURATION. In no event shall Lehigh University be liable to any party for any direct, 
+			indirect, incidental, exemplary, compensatory, punitive, special, or consequential damages, costs, expenses, 
+			legal fees, or losses (including, without limitation, lost income or lost profits and opportunity costs) in connection 
+			with any use of or reliance on the Content, for any inaccuracies or errors or omissions in the Content, for any delays, 
+			errors, or interruptions in the transmission or delivery of the Content, or for any damages resulting therefrom even if 
+			advised of the possibility of such damages.
+		</p>
+	</div>
+
+
+
+	<div style="height: 75px;"></div>
+
+	<a href="methodology" , style="text-decoration: none;">
+		<button>Learn About Our Methodology</button>
+	</a>
+
+	<div style="height: 200px;"></div>
+	
+	<nav>
+		<a href="https://www1.lehigh.edu/home">
+			<img src="{{ url_for('static', filename = 'Images/lehighbusinesscopypaste.png') }}" alt="Lehigh Business logo">
+		</a>
+		<ul>
+			<li><a href="https://www.linkedin.com/company/pennsylvania-100-index/about/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+			<li><a href="https://www.youtube.com/channel/UCSeR9qom_zvr8hb2TPpTzcw" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+			<li><a href="https://www.instagram.com/master_financial_engineering" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+		</ul>
+	</nav>
+
+</body>
+
+</html>

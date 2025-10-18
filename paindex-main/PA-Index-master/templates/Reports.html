@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='Images/favicon.png') }}">-->
+  <title>PA 100 Index</title>
+
+  <link rel="stylesheet" href="../static/style.css">
+  <nav>
+    <a href="https://www1.lehigh.edu/home">
+      <img src="{{ url_for('static', filename='Images/lehighbusinesscopypaste.png') }}" alt="Lehigh Business logo">
+    </a>
+    <ul>
+      <li><a href="/">Index</a></li>
+      <li><a href="reports" style="font-style: italic;">Reports</a></li>
+      <li><a href="methodology">Methodology</a></li>
+      <li><a href="team">Team</a></li>
+      <li><a href="https://business.lehigh.edu/academics/graduate/masters-programs/ms-financial-engineering">MS in
+          Financial Engineering</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <style>
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .section {
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .section h2 {
+        margin-top: 0;
+        font-size: 1.5em;
+        color: #333;
+    }
+
+    .section a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #e0e0e0;
+        color: #000;
+        text-decoration: none;
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    .section a:hover {
+        background-color: #d0d0d0;
+    }
+</style>
+</head>
+
+<body>
+    <div style="margin-top: 50px;"></div>
+
+    <div class="rectangle">
+      <h1>Index Reports</h1>
+      <div style="margin-top: 50px;"></div>
+    </div>
+    <div class="container">
+        <div class="section" id="yearly">
+            <h2>Yearly</h2>
+        </div>
+        <div class="section" id="quarterly">
+            <h2>Quarterly</h2>
+        </div>
+        <div class="section" id="monthly">
+            <h2>Monthly</h2>
+            <a href="Reports/April-2024-Report.pdf" target="_blank">May 2024</a>
+            <a href="Reports/May-2024-Report.pdf" target="_blank">April 2024</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='Images/favicon.png') }}">-->
+	<title>PA 100 Index</title>
+
+	<link rel="stylesheet" href="../static/style.css">
+	<nav>
+		<a href="https://www1.lehigh.edu/home">
+			<img src="{{ url_for('static', filename='Images/lehighbusinesscopypaste.png') }}" alt="Lehigh Business logo">
+		</a>
+		<ul>
+			<li><a href="/">Index</a></li>
+			<li><a href="reports">Reports</a></li>
+			<li><a href="methodology">Methodology</a></li>
+			<li><a href="team">Team</a></li>
+			<li><a href="https://business.lehigh.edu/academics/graduate/masters-programs/ms-financial-engineering">MS in
+					Financial Engineering</a></li>
+			<li><a href="contact" style="font-style: italic;">Contact</a></li>
+		</ul>
+	</nav>
+</head>
+
+<body
+	style="background-image: url('{{ url_for('static', filename = 'Images/LehighFinalRendering01.jpg') }}'); background-color: rgba(0, 0, 0, 0.5);">
+	<div class="container">
+		<form method="post" action="{{ url_for('contact') }}">
+			{{ form.csrf_token }}
+			<div class="form-section">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="phone_number">Phone:</label>
+				<input type="text" id="phone_number" name="phone_number">
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="subject">Subject:</label>
+				<input type="text" id="subject" name="subject">
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" rows="8" required></textarea>
+
+				<button type="submit">Send</button>
+			</div>
+		</form>
+
+		<div class="logo-section">
+			<img src="{{ url_for('static', filename='Images/theimage.png') }}" alt="Logo">
+		</div>
+	</div>
+</body>
+
+</html>

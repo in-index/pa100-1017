@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='Images/favicon.png') }}">-->
+	<title>PA 100 Index</title>
+	
+  <link rel="stylesheet" href="../static/style.css">
+  <nav>
+    <a href="https://www1.lehigh.edu/home">
+      <img src="{{ url_for('static', filename='Images/lehighbusinesscopypaste.png') }}" alt="Lehigh Business logo">
+    </a>
+    <ul>
+      <li><a href="/">Index</a></li>
+      <li><a href="reports">Reports</a></li>
+      <li><a href="methodology" style="font-style: italic;">Methodology</a></li>
+      <li><a href="team">Team</a></li>
+      <li><a href="https://business.lehigh.edu/academics/graduate/masters-programs/ms-financial-engineering">MS in
+          Financial Engineering</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+  </nav>
+</head>
+
+<body>
+  <div style="margin-top: 50px;"></div>
+
+  <div class="rectangle">
+    <h1>Methodology</h1>
+    <div style="margin-top: 50px;"></div>
+  </div>
+
+
+  <div>
+    <h2>Index Construction</h2>
+    <p>
+        The Lehigh University PA 100 Index is constructed using the Free-Float Market-Capitalization Method. This method calculates the
+        market value of a company by multiplying the current market price per share with the total number of shares
+        available for trading (number of free-floating shares). By using the free-floating market capitalization value,
+        the number of shares held by insiders or other entities that are not available for trading on the open market is 
+        taken into account implicitly. By using this method, we are able to accurately track the value of the top 100 
+        publicly traded companies in Pennsylvania and provide investors with a comprehensive view of the state's 
+        economic trends.
+    </p>
+    <div style="margin-top: 50px;"></div>
+  </div>
+
+  <div>
+    <h2>Selection Criteria</h2>
+    <p>
+        To be included in the Lehigh University PA 100 Index, companies must meet certain criteria. First, the company must be publicly 
+        traded and headquartered in Pennsylvania. Additionally, the company must be included in the iShares Russell 3000 ETF, 
+        which uses a combination of quantitative and qualitative factors to evaluate potential index constituents, 
+        including revenue growth, earnings per share, and industry trends.
+    </p>
+    <div style="margin-top: 50px;"></div>
+  </div>
+
+  <div>
+    <h2>Company List</h2>
+    <p>
+      The current list of companies included in the Lehigh University PA 100 Index can be found on our website. We update the list
+      annually to ensure that we are accurately tracking the top 100 publicly traded companies in Pennsylvania. The
+      list includes companies from a variety of industries (see the sector weights on the index page). By providing
+      a diverse representation of Pennsylvania's economy, we are able to provide investors with a comprehensive view of
+      the state's economic trends and the performance of its top companies.
+    </p>
+  </div>
+
+  <div>
+    {{ plot_html|safe }}
+  </div>
+  
+  <div class="closetotable">
+		<p>Scroll or Pinch & Drag to Navigate Table</p>
+		<div class="sidenote">
+			<p style="font-size: 10px;">Source: Lehigh University PA 100 Index</p>
+		</div>
+	</div>
+
+  <div style="height: 75px;"></div>
+
+	<a href="team" , style="text-decoration: none;">
+		<button>Meet Our Team</button>
+	</a>
+  
+	<div style="height: 200px;"></div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+Ticker,Name,Sector,Industry Name,Market Capitalization
+CMCSA,Comcast Corp,Communication Services,Media,1.76803E+11
+APD,Air Products and Chemicals Inc,Materials,Chemicals,61883981824
+PNC,PNC Financial Services Group Inc/The,Financials,Banks,44542468096
+HSY UN Equity,Hershey Co/The,Consumer Staples,Food Products,39041101824
+KHC UW Equity,Kraft Heinz Co/The,Consumer Staples,Food Products,38457901056
+COR UN Equity,Cencora Inc,Health Care,Health Care Providers & Services,38160502784
+AME UN Equity,AMETEK Inc,Industrials,Electrical Equipment,32661913600
+PPG UN Equity,PPG Industries Inc,Materials,Chemicals,29408976896
+WST UN Equity,West Pharmaceutical Services Inc,Health Care,Life Sciences Tools & Services,26860367872
+ANSS UW Equity,ANSYS Inc,Information Technology,Software,24277198848
+HWM UN Equity,Howmet Aerospace Inc,Industrials,Aerospace & Defense,17906315264
+WAB UN Equity,Westinghouse Air Brake Technologies Corp,Industrials,Machinery,17859295232
+PPL UN Equity,PPL Corp,Utilities,Electric Utilities,17513224192
+EQT UN Equity,EQT Corp,Energy,"Oil, Gas & Consumable Fuels",17416865792
+BSY UW Equity,Bentley Systems Inc,Information Technology,Software,16258621440
+AVTR UN Equity,Avantor Inc,Health Care,Life Sciences Tools & Services,13883364352
+EPAM UN Equity,EPAM Systems Inc,Information Technology,IT Services,12944379904
+GLPI UW Equity,Gaming and Leisure Properties Inc,Real Estate,Specialized REITs,11839818752
+VTRS UW Equity,Viatris Inc,Health Care,Pharmaceuticals,11155652608
+FIVE UW Equity,Five Below Inc,Consumer Discretionary,Specialty Retail,9797904384
+DKS UN Equity,Dick's Sporting Goods Inc,Consumer Discretionary,Specialty Retail,9293879296
+TFX UN Equity,Teleflex Inc,Health Care,Health Care Equipment & Supplies,8813849600
+WTRG UN Equity,Essential Utilities Inc,Utilities,Water Utilities,8707529728
+UHS UN Equity,Universal Health Services Inc,Health Care,Health Care Providers & Services,8651936768
+FMC UN Equity,FMC Corp,Materials,Chemicals,8350909952
+CUBE UN Equity,CubeSmart,Real Estate,Specialized REITs,7987448832
+TOL UN Equity,Toll Brothers Inc,Consumer Discretionary,Household Durables,7380582912
+SEIC UW Equity,SEI Investments Co,Financials,Capital Markets,7279692800
+GMED UN Equity,Globus Medical Inc,Health Care,Health Care Equipment & Supplies,7184696832
+X UN Equity,United States Steel Corp,Materials,Metals & Mining,7139300864
+ARMK UN Equity,Aramark,Consumer Discretionary,"Hotels, Restaurants & Leisure",6873453056
+WCC UN Equity,WESCO International Inc,Industrials,Trading Companies & Distributors,6453571072
+DUOL UW Equity,Duolingo Inc,Consumer Discretionary,Diversified Consumer Services,6381396480
+MSA UN Equity,MSA Safety Inc,Industrials,Commercial Services & Supplies,5875883008
+AXTA UN Equity,Axalta Coating Systems Ltd,Materials,Chemicals,5722120192
+ESNT UN Equity,Essent Group Ltd,Financials,Financial Services,5020966912
+COHR UN Equity,Coherent Corp,Information Technology,"Electronic Equipment, Instruments & Components",4695266304
+OLLI UQ Equity,Ollie's Bargain Outlet Holdings Inc,Consumer Discretionary,Broadline Retail,4617333760
+HLNE UW Equity,Hamilton Lane Inc,Financials,Capital Markets,4411761152
+UGI UN Equity,UGI Corp,Utilities,Gas Utilities,4355063808
+AA UN Equity,Alcoa Corp,Materials,Metals & Mining,4284574976
+FOUR UN Equity,Shift4 Payments Inc,Financials,Financial Services,4152969984
+LNC UN Equity,Lincoln National Corp,Financials,Insurance,3969531904
+RDN UN Equity,Radian Group Inc,Financials,Financial Services,3927775232
+ETRN UN Equity,Equitrans Midstream Corp,Energy,"Oil, Gas & Consumable Fuels",3843025152
+FNB UN Equity,FNB Corp/PA,Financials,Banks,3835877120
+CNX UN Equity,CNX Resources Corp,Energy,"Oil, Gas & Consumable Fuels",3678171392
+ENS UN Equity,EnerSys,Industrials,Electrical Equipment,3655014912
+AEO UN Equity,American Eagle Outfitters Inc,Consumer Discretionary,Specialty Retail,3446087680
+CEIX UN Equity,CONSOL Energy Inc,Energy,"Oil, Gas & Consumable Fuels",3315253760
+VSH UN Equity,Vishay Intertechnology Inc,Information Technology,"Electronic Equipment, Instruments & Components",3198004992
+FOLD UQ Equity,Amicus Therapeutics Inc,Health Care,Biotechnology,3168270848
+AWI UN Equity,Armstrong World Industries Inc,Industrials,Building Products,3097811456
+URBN UW Equity,Urban Outfitters Inc,Consumer Discretionary,Specialty Retail,3087531776
+PENN UW Equity,Penn Entertainment Inc,Consumer Discretionary,"Hotels, Restaurants & Leisure",3074244352
+KRYS UQ Equity,Krystal Biotech Inc,Health Care,Biotechnology,3050245632
+SEM UN Equity,Select Medical Holdings Corp,Health Care,Health Care Providers & Services,3041270528
+CRS UN Equity,Carpenter Technology Corp,Materials,Metals & Mining,2980214528
+IRT UN Equity,Independence Realty Trust Inc,Real Estate,Residential REITs,2961654016
+LTHM UN Equity,Livent Corp,Materials,Chemicals,2844894720
+AUR UW Equity,Aurora Innovation Inc,Information Technology,Software,2706106112
+KWR UN Equity,Quaker Chemical Corp,Materials,Chemicals,2593913344
+MDGL UW Equity,Madrigal Pharmaceuticals Inc,Health Care,Biotechnology,2592275968
+DORM UW Equity,Dorman Products Inc,Consumer Discretionary,Automobile Components,2304933632
+FULT UW Equity,Fulton Financial Corp,Financials,Banks,1979832576
+VSTS UN Equity,Vestis Corp,Industrials,Commercial Services & Supplies,1896822528
+KMT UN Equity,Kennametal Inc,Industrials,Machinery,1853611136
+WMK UN Equity,Weis Markets Inc,Consumer Staples,Consumer Staples Distribution & Retail,1754854400
+UTZ UN Equity,Utz Brands Inc,Consumer Staples,Food Products,1633903488
+MNTK UR Equity,Montauk Renewables Inc,Utilities,Independent Power and Renewable Electricity Producers,1387772160
+NWBI UW Equity,Northwest Bancshares Inc,Financials,Banks,1246807936
+FCF UN Equity,First Commonwealth Financial Corp,Financials,Banks,1244235520
+HRMY UQ Equity,Harmony Biosciences Holdings Inc,Health Care,Pharmaceuticals,1207802880
+MATW UW Equity,Matthews International Corp,Industrials,Commercial Services & Supplies,1134006400
+ECVT UN Equity,Ecovyst Inc,Materials,Chemicals,1081286912
+AHCO UR Equity,AdaptHealth Corp,Health Care,Health Care Providers & Services,1048016256
+CUBI UN Equity,Customers Bancorp Inc,Financials,Banks,1033869888
+STBA UW Equity,S&T Bancorp Inc,Financials,Banks,991674944
+KOP UN Equity,Koppers Holdings Inc,Materials,Chemicals,755366528
+OFLX UQ Equity,Omega Flex Inc,Industrials,Machinery,749503424
+HCSG UW Equity,Healthcare Services Group Inc,Industrials,Commercial Services & Supplies,739724160
+BV UN Equity,BrightView Holdings Inc,Industrials,Commercial Services & Supplies,684796928
+BDN UN Equity,Brandywine Realty Trust,Real Estate,Office REITs,674622848
+TGI UN Equity,Triumph Group Inc,Industrials,Aerospace & Defense,582253824
+CABA UW Equity,Cabaletta Bio Inc,Health Care,Biotechnology,559154944
+UHT UN Equity,Universal Health Realty Income Trust,Real Estate,Health Care REITs,518743488
+NVRI UN Equity,Enviri Corp,Industrials,Commercial Services & Supplies,510432416
+YORW UW Equity,York Water Co/The,Utilities,Water Utilities,509877728
+UVSP UW Equity,Univest Financial Corp,Financials,Banks,498066016
+CTLP UW Equity,Cantaloupe Inc,Financials,Financial Services,471792256
+DGICA UW Equity,Donegal Group Inc,Financials,Insurance,468666592
+VPG UN Equity,Vishay Precision Group Inc,Information Technology,"Electronic Equipment, Instruments & Components",432339552
+HT UN Equity,Hersha Hospitality Trust,Real Estate,Hotel & Resort REITs,396236576
+OSUR UW Equity,OraSure Technologies Inc,Health Care,Health Care Equipment & Supplies,392768608
+ACRS UW Equity,Aclaris Therapeutics Inc,Health Care,Pharmaceuticals,376627488
+CCNE UW Equity,CNB Financial Corp/PA,Financials,Banks,367425024
+MLYS UW Equity,Mineralys Therapeutics Inc,Health Care,Biotechnology,341561632
+LMB UR Equity,Limbach Holdings Inc,Industrials,Construction & Engineering,322400320
+MPB UQ Equity,Mid Penn Bancorp Inc,Financials,Banks,319530848
+PFIS UW Equity,Peoples Financial Services Corp,Financials,Banks,281563680

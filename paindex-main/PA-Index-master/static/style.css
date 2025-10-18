@@ -1,0 +1,339 @@
+.disclaimer-text {
+    font-size: 10px; /* Set the font size smaller or adjust as needed */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; /* add space between grid items */
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column; /* stack name underneath image */
+  align-items: center; /* align name to center */
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.left img {
+  width: 95%;
+  height: 95%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.name {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px; /* add space between image and name */
+}
+
+/* CSS for navigation bar */
+nav {
+  background-color: #502d0e;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 0 30px;
+  position: relative;
+}
+
+nav li:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: -30px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    
+}
+
+p{
+  text-align: center;
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80px;
+  margin: 50px auto;
+  background-color: #502d0e;
+  width: 50%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.rectangle h1{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body h2{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.closetotable{
+    position: absolute;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.sidenote {	
+    font-size: 10px;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-top: -50px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+/* CSS for banner */
+.banner {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.dot-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.dot {
+height: 200px;
+width: 200px;
+background-color: #502d0e;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 50px;
+margin-right: 50px;
+box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.dot span {
+color: white;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+
+
+
+
+
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 10px 40px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.banner h6 {
+  position: absolute;
+  top: 60px; /* 48px is the height of the h1 element */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  z-index: 2;
+}
+
+
+button{
+background-color: #502d0e;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 15px;
+font-size: 16px;
+cursor: pointer;
+width: 50%;
+margin: 0 auto;
+display: block;
+box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.container {			
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF; /* Set the background color of the box to white */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0px 0px 10px black; /* Add a drop shadow */
+  padding: 20px; /* Add some padding to the inside of the box */
+  width: 80%; /* Set the width of the box to 80% of the parent container */
+  max-width: 800px; /* Set a maximum width for the box */
+  margin: 0 auto; /* Center the box horizontally on the page */
+  margin-top: 50px; /* Add some space between the box and the top of the page */
+  margin-bottom: 50px;
+  display: flex; /* Use flexbox to align the elements horizontally */
+  justify-content: space-between; /* Add space between the elements */
+  }
+
+  /* Style the form section */
+  .form-section {
+    flex: 1; /* Use flexbox to make the section take up remaining space */
+  }
+
+  .form-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .form-section input[type=text],
+  .form-section input[type=email],
+  .form-section textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style the send button */
+  .form-section button[type=submit] {
+    background-color: #CF0921;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .form-section button[type=submit]:hover {
+    background-color: #D9041E;
+  }
+
+  /* Style the logo section */
+  .logo-section {
+    flex: 1;
+    text-align: center;
+  }
+
+  .logo-section img {
+    margin-top: 50%;
+    max-width: 60%;
+    max-height: 60%;
+  }
+
